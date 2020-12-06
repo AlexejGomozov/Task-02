@@ -25,13 +25,13 @@ public static void task() {
 	        
 	        if (x> j & x <= (j + f))  {y = x - j; System.out.print("число " + x+" это "+y + " февраля");}
 	        
-	        if (x> (j + f) & x <= (j + f + m))  {y = x - (j +f); System.out.print("число " + x+" это "+y + " февраля");} 
+	        if (x> (j + f) & x <= (j + f + m))  {y = x - (j +f); System.out.print("число " + x+" это "+y + " марта");} 
 	        
-	        if (x> (j + f + m) & x <= (j + f + m + a))  {y = x - (j + f + m); System.out.print("число " + x+" это "+y + " марта");} 
-	        if (x> (j + f + m + a) & x <= (j + f + m + a + m1))  {y = x - (j + f + m+a); System.out.print("число " + x+" это "+y + " апреля");}
+	        if (x> (j + f + m) & x <= (j + f + m + a))  {y = x - (j + f + m); System.out.print("число " + x+" это "+y + " апреля");} 
+	        if (x> (j + f + m + a) & x <= (j + f + m + a + m1))  {y = x - (j + f + m+a); System.out.print("число " + x+" это "+y + "мая");}
 
-	        if (x> (j + f + m + a + m1 ) & x <= (j + f + m + a + m1 +jn))  {y = x - (j + f + m + a + m1); System.out.print("число " + x+" это "+y + " мая");}
-	        if (x> (j + f + m + a + m1 +jn) & x <= (j + f + m + a + m1 +jn+jl))  {y = x - (j + f + m + a + m1 +jn); System.out.print("число " + x+" это "+y + " июня");}
+	        if (x> (j + f + m + a + m1 ) & x <= (j + f + m + a + m1 +jn))  {y = x - (j + f + m + a + m1); System.out.print("число " + x+" это "+y + "июня");}
+	        if (x> (j + f + m + a + m1 +jn) & x <= (j + f + m + a + m1 +jn+jl))  {y = x - (j + f + m + a + m1 +jn); System.out.print("число " + x+" это "+y + "июля");}
 		     
 	        if (x> (j + f + m + a + m1 +jn+jl) & x <= (j + f + m + a + m1 +jn+jl+ag))  {y = x - (j + f + m + a + m1 +jn+jl); System.out.print("число " + x+" это "+y + " августа");}
 	        if (x> (j + f + m + a + m1 +jn+jl+ag) & x <= (j + f + m + a + m1 +jn+jl+ag+s))  {y = x - (j + f + m + a + m1 +jn+jl+ag); System.out.print("число " + x+" это "+y + " сентября");}
