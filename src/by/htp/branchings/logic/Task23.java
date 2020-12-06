@@ -12,7 +12,7 @@ public static void task() {
 	x = 24;
 	m = 11;
 	
-	if( x>=1 & x<=31 & m>=1 & m <= 12 ) {System.out.print("сегодня "+x+ "."+ m);}
+	if( (x>=1 | x<=31) & (m>=1 | m <= 12 )) {System.out.print("сегодня "+x+ "."+ m);}
 	 else  System.out.print("Вы ввели некоректные данные");
 	
 } 
