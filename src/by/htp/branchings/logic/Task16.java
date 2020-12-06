@@ -12,8 +12,8 @@ public static void task() {
 	y = -5;
 	
 	if (x == 0 & y == 0) System.out.println("В начале координат");
-	else if (x==0 & y> 0 & y < 0) System.out.println("На оси  Y");
-	else if (x <0 & x > 0 & y == 0)System.out.println("На оси  X");
+	else if (x==0 & (y> 0 | y < 0)) System.out.println("На оси  Y");
+	else if ((x <0 | x > 0) & y == 0)System.out.println("На оси  X");
 	else if (x>0 & y > 0) System.out.println("1 четверть");
 	else if (x<0 & y > 0) System.out.println("2 четверть");
 	else if (x<0 & y < 0) System.out.println("3 четверть");
