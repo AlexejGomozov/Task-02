@@ -15,20 +15,14 @@ public static void task() {
 	switch (x) {
 	
 	case "9583" :
-		System.out.print("доступны модули баз А, В, С;");
-	break;
 	case "1747" :
 		System.out.print("доступны модули баз А, В, С;");
 	break;
 	case "3331":	
-		System.out.print("доступны модули баз В, С;");
-	break;
 	case "7922":	
 		System.out.print("доступны модули баз В, С;");
 	break;
 	case "8997":	
-		System.out.print("доступен модуль базы С.");
-	break;
 	case "9455":	
 		System.out.print("доступен модуль базы С.");
 	break;
